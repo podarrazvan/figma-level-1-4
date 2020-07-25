@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+#titlu{
+    background-color: #3A72B5;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    padding-top:26px;
+    padding-bottom: 47px;
+    text-align: center;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 33px;
+}
+#container{
+    position: absolute;
+    border-radius: 8px;
+    background: #DBDBDB;
+    padding:42px 55px 22px 55px;
+    top:196px;
+    left: calc(50% - 493px);
+    height: 560px;
+    width: 986px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 42px;
+}
+
+#primul-text{
+    border-radius: 8px;
+    background-color: white;
+    padding:98px 84px 98px 23px;
+    height: 238px;
+    width: 419px;
+}
+
+#aldoilea-text{
+    position: absolute;
+    border-radius: 8px;
+    background-color: white;
+    top:42px;
+    right: 55px;
+    bottom: 280px;
+    padding:179px 20px 17px 87px;
+    height: 238px;
+    width: 419px;
+}
+
+#altreilea-dreptunghi{
+    position: absolute;
+    border-radius: 8px;
+    bottom: 22px;
+    right: 55px;
+    left: 55px;
+    top:302px;
+    background: white;
+}
+#altreilea-text-1, #altreilea-text-2{
+    padding-left: 23px;;
+}
+#altreilea-text-1{
+    padding-top:29px;
+}
+#altreilea-text-2{
+    position: absolute;
+    top: 166px;
+}
+#cerc{
+    position: absolute; 
+    background-color: #252F89;
+    top:43px;
+    left: 667px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+@media only screen and (max-width: 768px) {
+    #container{
+        padding:21px 27px 11px 27px;
+        height: calc(560px/2);
+        width: calc(986px/2);
+        left: calc(50% - 246px);
+        font-size: 18px;
+        line-height: 21px;
+    }
+    #primul-text, #aldoilea-text{
+        height: 119px;
+        width: 209px;
+    }
+    #primul-text{   
+        padding:49px 42px 49px 11px;
+    } 
+    #aldoilea-text{
+        padding:89px 10px 8px 43px;
+        top:22px;
+        left: 256px;
+    }
+    #altreilea-dreptunghi{
+        position: absolute;
+        border-radius: 8px;
+        left: 27px;
+        right: 27px;
+        top:151px;
+        background:white;
+    }
+    #altreilea-text-1, #altreilea-text-2{
+        padding-left: 12px;;
+    }
+    #altreilea-text-1{ 
+        padding-top:14px;
+    }
+    #altreilea-text-2{
+        top:80px;
+       
+    }
+    #cerc{
+        height: 75px;
+        width: 75px;
+        top:21px;
+        left: 333px;
+    }
+ 
+}
